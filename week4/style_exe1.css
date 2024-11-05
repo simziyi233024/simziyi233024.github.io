@@ -25,6 +25,7 @@ header {
     font-size: large;
     font-family: 'roboto';
     padding: 18px;
+    align-items: center;
 }
 
 div.header_margin {
