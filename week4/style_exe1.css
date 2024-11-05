@@ -1,0 +1,31 @@
+@font-face {
+    font-family: Roboto;
+    src: url(font/Roboto-Regular.ttf)
+}
+
+#nav {
+    display: flex;
+}
+
+a {
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(93, 130, 222);
+    color: beige;
+    font-size: large;
+    font-family: 'roboto';
+    padding: 15px;
+}
+
+div.header_margin {
+    margin-right: 15px;
+}
