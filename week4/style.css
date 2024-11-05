@@ -30,3 +30,8 @@ button.tweet {
 #bigbutton {
     font-size: 25px;
 }
+
+.setbg {
+    background-image: url('images/instagram.png');
+    background-size: contain;
+}
