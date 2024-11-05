@@ -1,5 +1,5 @@
 @font-face {
-    font-family: Roboto;
+    font-family: 'roboto';
     src: url(font/Roboto-Regular.ttf)
 }
 
@@ -23,7 +23,7 @@ header {
     color: beige;
     font-size: large;
     font-family: 'roboto';
-    padding: 15px;
+    padding: 18px;
 }
 
 div.header_margin {
