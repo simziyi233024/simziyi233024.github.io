@@ -26,3 +26,7 @@ button.tweet {
 .button-extra {
     font-family: 'Times New Roman', Times, serif;
 }
+
+#bigbutton {
+    font-size: 25px;
+}
