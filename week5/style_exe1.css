@@ -1,0 +1,56 @@
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: beige;
+    font-size: large;
+    font-family: 'roboto';
+    padding: 18px;
+    align-items: center;
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+}
+
+.navright {
+    display: flex;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(242, 204, 15);
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+
+.account {
+    display: flex;
+    align-items: center;
+}
+
+button.order {
+    color: white;
+    background: black;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: black;
+}
+
+button.order:hover {
+    background-color: rgb(242, 204, 15);
+    color: black;
+}
+
+div.header_margin {
+    margin-right: 25px;
+}
