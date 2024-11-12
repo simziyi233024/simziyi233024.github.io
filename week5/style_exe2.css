@@ -1,0 +1,82 @@
+body {
+    font-family: "Quicksand", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(56, 83, 130);
+    font-size: large;
+    padding: 18px;
+    align-items: center;
+}
+
+.account {
+    color: aliceblue;
+    align-items: center;
+    padding: 5px;
+}
+
+.username {
+    align-items: center;
+    font-size: larger;
+    font-weight: 500;
+    padding: 5px;
+
+}
+
+.position {
+    align-items: center;
+    font-size: medium;
+    font-weight: 100;
+    padding: 5px;
+
+}
+
+.navleft {
+    display: flex;
+    align-items: center;
+}
+
+.navright {
+    font-weight: 100;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(161, 161, 196);
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+
+.hovers {
+    display: flex;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    padding: 10px;
+    align-items: center;
+}
+
+.socmed {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header_margin {
+    display: flex;
+    margin-right: 30px;
+}
