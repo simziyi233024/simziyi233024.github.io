@@ -4,42 +4,15 @@
 <head>
     <title>Week 5</title>
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <style>
-        .bigbox {
-            display: flex;
-            gap: 10px;
-        }
-
-        .column {
-            flex: 1;
-        }
-
-        .column1a {
-            background-color: rgb(178, 202, 255);
-            padding: 10px;
-        }
-
-        .column2a {
-            background-color: rgb(255, 252, 167);
-            flex: 2;
-            padding: 10px;
-        }
-
-        .column1b {
-            background-color: rgb(255, 252, 167);
-            flex: 2;
-            padding: 10px;
-        }
-
-        .column2b {
-            background-color: rgb(178, 202, 255);
-            padding: 10px;
-        }
-    </style>
+    <link rel="stylesheet" href="style_index.css" />
 </head>
 
-<body>
-    <div class="bigbox">
+<body class="body">
+    <div class="header">
+        <h1>Header</h1>
+    </div>
+
+    <div class="content">
         <div class="column column1a">
             <h2>Column 1</h2>
             <p>This is a paragraph for Column 1</p>
@@ -49,8 +22,7 @@
             <p>This is a paragraph for Column 2</p>
         </div>
     </div>
-
-    <div class="bigbox">
+    <div class="content">
         <div class="column column1b">
             <h2>Column 1</h2>
             <p>This is a paragraph for Column 1</p>
@@ -59,6 +31,9 @@
             <h2>Column 2</h2>
             <p>This is a paragraph for Column 2</p>
         </div>
+    </div>
+    <div class="footer">
+        <h3>Footer</h3>
     </div>
 </body>
 
