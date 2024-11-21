@@ -1,0 +1,51 @@
+.body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+
+}
+
+.container {
+    display: flex;
+    background-color: aliceblue;
+    align-items: center;
+    justify-content: center;
+}
+
+.paragraph {
+    padding: 30px;
+    flex: 5;
+}
+
+.content {
+    font-family: "Roboto", sans-serif;
+    font-size: small;
+}
+
+.photo {
+    position: relative;
+    flex: 1;
+}
+
+button.viewctlg {
+    color: white;
+    background-color: rgb(172, 160, 155);
+    padding: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border: rgb(172, 160, 155);
+    border-radius: 5px;
+}
+
+#@media screen and (max-width:1200px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .icon {
+        display: none;
+    }
+}
