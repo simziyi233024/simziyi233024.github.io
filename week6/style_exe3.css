@@ -1,21 +1,16 @@
 .body {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
+    margin: 0;
 
 }
 
 .container {
     display: flex;
     background-color: aliceblue;
-    align-items: center;
-    justify-content: center;
 }
 
 .paragraph {
     padding: 30px;
-    flex: 5;
+    flex: 1;
 }
 
 .content {
@@ -24,8 +19,16 @@
 }
 
 .photo {
-    position: relative;
+    background: url(images/lady.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 350px;
     flex: 1;
+}
+
+.photo img {
+    width: 100%;
+    height: auto;
 }
 
 button.viewctlg {
@@ -38,14 +41,9 @@ button.viewctlg {
     border-radius: 5px;
 }
 
-#@media screen and (max-width:1200px) {
+@media screen and (max-width:600px) {
 
     .container {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .icon {
-        display: none;
+        flex-direction: column-reverse;
     }
 }
