@@ -4,18 +4,16 @@ body {
 }
 
 .header {
-    background-color: rgb(21, 168, 21);
+    background-color: rgb(255, 169, 119);
     display: flex;
     justify-content: space-between;
     padding: 15px;
 }
 
 .footer {
-    background-color: rgb(21, 168, 21);
+    background-color: rgb(255, 169, 119);
     text-align: center;
     padding: 30px;
-
-
 }
 
 .socmed {
@@ -30,6 +28,11 @@ body {
     font-weight: 50;
     text-align: center;
     padding: 18px;
+}
+
+img.profile {
+    border-radius: 50%;
+    align-items: center;
 }
 
 .intro {
@@ -62,4 +65,21 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+a:hover {
+    color: orangered;
+    text-decoration: underline 2px;
+    text-underline-offset: 5px;
+}
+
+@media screen and (max-width: 600px) {
+    .exercise {
+        flex-direction: column
+    }
 }
