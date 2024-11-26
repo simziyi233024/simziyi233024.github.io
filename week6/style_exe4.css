@@ -13,8 +13,8 @@ button.learnmore {
 }
 
 .content {
-    position: relative;
     width: 450px;
+    justify-content: center;
 }
 
 
@@ -34,13 +34,16 @@ button.learnmore {
 .paragraph {
     backdrop-filter: blur(10px);
     border-radius: 10px;
-    width: 350px;
     color: white;
     padding: 20px;
 
 }
 
-.logo {
+div.logo {
+    text-align: center;
+}
+
+img.logo {
     position: relative;
     top: 30px;
     padding: 10px;
@@ -53,12 +56,19 @@ button.learnmore {
 
 @media screen and (max-width: 600px) {
     .content {
-        justify-content: center; ///
+        background-position: center;
+        width: 350px;
+        text-align: center;
+
+    }
+
+    button.learnmore {
+        font-size: x-small;
     }
 
     .background {
-        width: 100%;
-        min-height: 55vh;
+        display: flex;
+        justify-content: center;
     }
 
 }
