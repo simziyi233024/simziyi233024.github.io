@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Week 2 - Exercise 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Comfortaa:wght@300..700&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Finger+Paint&family=Londrina+Solid:wght@100;300;400;900&family=Oxygen:wght@300;400;700&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #f6f5ef;
+        }
+
+        .content {
+            background-color: white;
+        }
+
+        .logo {
+            width: 150px;
+        }
+
+        .friesMenu {
+            width: 30px;
+            display: none;
+        }
+
+        img {
+            width: 100%;
+        }
+
+        .content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+
+        }
+
+        .subPages {
+            display: flex;
+            gap: 20px;
+            font-family: "Oxygen", sans-serif;
+            font-size: 18px;
+
+        }
+
+        .contact {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            font-family: "Oxygen", sans-serif;
+            font-size: 18px;
+
+        }
+
+        .callLogo {
+            width: 25px;
+        }
+
+        button {
+            background-color: rgb(249, 94, 28);
+            color: white;
+            border: none;
+            padding: 13px;
+            padding-left: 18px;
+            padding-right: 18px;
+            border-radius: 10px;
+            font-size: 15px;
+        }
+
+        .contact p {
+            font-weight: 1000;
+        }
+
+        .calls {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+
+        /* Use a media query to add a breakpoint at 800px: */
+        @media screen and (max-width: 1280px) {
+            .subPages {
+                display: none;
+            }
+
+            .contactButton {
+                display: none;
+            }
+
+            .friesMenu {
+                display: block;
+            }
+
+        }
+
+        @media screen and (max-width: 760px) {
+
+
+            .calls {
+                display: none;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="logo"><img src="img/logo.png"></div>
+
+        <div class="subPages">
+            <p>Home</p>
+            <p>Services</p>
+            <p>Work</p>
+            <p>Project Details</p>
+            <p>Contact</p>
+        </div>
+
+        <div class="contact">
+            <div class="calls">
+                <div class="callLogo">
+                    <img src="img/callLogo.png">
+                </div>
+                <p>555-123-4567</p>
+                <div class="contactButton">
+                    <button>Contact</button>
+                </div>
+            </div>
+
+            <div class="friesMenu"><img src="img/friesMenu.png"></div>
+        </div>
+
+    </div>
+</body>
+
+</html>
