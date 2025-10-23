@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+    <title>Week 2 - Exercise 2</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Baskervville:ital@0;1&family=Comfortaa:wght@300..700&family=Dancing+Script:wght@400..700&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Finger+Paint&family=Londrina+Solid:wght@100;300;400;900&family=Oxygen:wght@300;400;700&family=Pixelify+Sans:wght@400..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        body {
+            background-color: #5f101d;
+        }
+
+        .humans {
+            display: flex;
+            margin: 20px;
+            gap: 40px;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+
+        .ar1 {
+            margin-top: 0;
+        }
+
+        .ar2 {
+            margin-top: 100px;
+        }
+
+        .ar3 {
+            margin-top: 200px;
+        }
+
+        .ar4 {
+            margin-top: 300px;
+        }
+
+        @media screen and (max-width: 1500px) {
+
+            .ar1,
+            .ar2,
+            .ar3,
+            .ar4 {
+                margin-top: 20px;
+            }
+        }
+
+        h1 {
+            color: rgb(235, 156, 156);
+            font-size: 25px;
+            margin-bottom: 30px;
+
+            /* use a thin custom underline whose width is controlled by --img-width */
+            text-decoration: none;
+            display: block;
+            padding-bottom: 15px;
+
+            /* default underline width (override per person by setting --img-width on the .arX container) */
+            --img-width: 700px;
+
+            /* thin underline drawn as a background line sized to the image width */
+            background-image: linear-gradient(rgb(235, 156, 156), rgb(235, 156, 156));
+            background-repeat: no-repeat;
+            background-size: var(--img-width) 1px;
+            /* 1px makes it thinner */
+            background-position: left bottom;
+        }
+
+        p {
+            color: rgb(234, 193, 193);
+            font-family: "oxygen", sans-serif;
+            font-size: 18px;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="humans">
+        <div class="ar1">
+            <h1>JOSEPH BARNES</h1>
+            <div><img src="img/joseph.jpg" alt="joseph"></div>
+            <p>Manager</p>
+        </div>
+
+        <div class="ar2">
+            <h1>EARL WOOD</h1>
+            <div><img src="img/earl.jpg" alt="earl"></div>
+            <p>Bartender</p>
+        </div>
+
+        <div class="ar3">
+            <h1>BOBBY JOHNSON</h1>
+            <div><img src="img/bobby.jpg" alt="bobby"></div>
+            <p>Bartender</p>
+        </div>
+
+        <div class="ar4">
+            <h1>JANE MORGAN</h1>
+            <div><img src="img/jane.jpg" alt="jane"></div>
+            <p>Bartender</p>
+        </div>
+
+    </div>
+</body>
+
+</html>
